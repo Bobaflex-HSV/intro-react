@@ -48,7 +48,7 @@ class App extends React.Component {
   render() {
     let tabChoice = <div />;
 
-    /*Uncomment below to render assignments*/
+    /*Uncomment below to render assignments  */
     if (this.state.buttonClicked === "assignments") {
       tabChoice = (
         <List
